@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+}
+.form-control:focus {
+  border-color: #c0e0bd;
+  box-shadow: 0 0 0 0.2rem rgba(160, 208, 156, 0.5);
+}
+.breadcrumb-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px !important;
+}
+
+.pagination .page-item .page-link {
+  background: white !important;
+  border: 0;
+  color: rgba(31, 31, 31, 1);
+  ;
+
+  margin: 5px 14px 5px 14px;
+}
+.pagination .page-item.active .page-link {
+  background: #61b15a !important;
+  border: 1px #c0e0bd solid;
+  border-radius: 100%;
+  color: white;
+}
+
+@media screen and (min-width: 1440px) {
+  .breadcrumb {
+    margin: 100px 142px 0 142px;
+  }
+  .breadcrumb-item a {
+    color: #61b15a;
+  }
+  #list-kegiatan {
+    margin-left: 156px;
+    margin-right: 156px;
+  }
+  .title-page {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+  }
+  .garis-page {
+    margin-left: 156px;
+    margin-right: 156px;
+    border: 1px #c0e0bd solid;
+    margin-bottom: 70px;
+  }
+  .container-card {
+    margin-top: 30px;
+    background: #ffffff;
+    height: 500px;
+    max-height: 600px;
+    border-radius: 20px;
+    box-sizing: content-box;
+  }
+  .container-img {
+    position: relative;
+  }
+  .card-image {
+    height: 297.92px;
+    max-height: 297.92px;
+    width: 95%;
+    margin-left: 14px;
+    margin-top: 14px;
+    margin-right: 14px;
+    border-radius: 20px;
+  }
+  .tanggal-container {
+    width: 60px;
+    padding: 10px;
+    height: 60px;
+    background: white;
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 32px;
+    border-radius: 16px;
+  }
+  .tanggal {
+    font-size: 20px;
+    margin: 0;
+
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: rgba(31, 31, 31, 1);
+  }
+  .tanggal-description {
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin: 0;
+    color: rgba(31, 31, 31, 0.6);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .container-title {
+    margin: 30px 24px 0px 22px;
+    font-size: 24px;
+    font-weight: 700;
+
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+  .container-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #1f1f1f;
+    margin: 14px 24px 34px 24px;
+    opacity: 0.5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+  #kegiatan-terbaru {
+    margin-left: 156px;
+    margin-right: 156px;
+  }
+  #kegiatan-terbaru .title-page {
+    margin-top: 155px;
+  }
+
+  #kegiatan-terbaru .card-image {
+    width: 93%;
+    height: 250px;
+  }
+
+  #pagination-section {
+    margin-top: 81px;
+    padding-top: 10px;
+    margin-bottom: 81px;
+    width: fit-content;
+    height: 72px;
+    border-radius: 63px;
+    background-color: white;
+  }
+}
