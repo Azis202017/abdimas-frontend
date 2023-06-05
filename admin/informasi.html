@@ -63,14 +63,20 @@
         <!-- Heading -->
         <div class="sidebar-heading">Halaman</div>
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="informasi.html">
             <i class="fas fa-newspaper"></i>
             <span>Informasi</span></a
           >
         </li>
-        <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item active">
+          <a class="nav-link" href="data_warga.html">
+            <i class="fas fa-table"></i>
+            <span>Data Warga</span></a
+          >
+        </li>
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
           <a
             class="nav-link collapsed"
             href="#"
@@ -94,7 +100,7 @@
               <a class="collapse-item" href="misi.html">Misi</a>
 
               <a class="collapse-item" href="sejarah.html">Sejarah</a>
-              <a class="collapse-item active" href="kepengurusan.html"
+              <a class="collapse-item " href="kepengurusan.html"
                 >Struktur Organisasi</a
               >
               <a class="collapse-item" href="kontak.html">Kontak</a>
@@ -122,7 +128,7 @@
           >
             <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Kelembagaan</h6>
-              <a class="collapse-item" href="kontak.html">Rukun 1</a>
+              <a class="collapse-item" href="rt1.html">Rukun 1</a>
               <a class="collapse-item" href="kontak.html">Rukun 2</a>
               <a class="collapse-item" href="kontak.html">Rukun 3</a>
               <a class="collapse-item" href="kontak.html">Rukun 4</a>
@@ -353,7 +359,7 @@
             <div
               class="d-sm-flex align-items-center justify-content-between mb-4"
             >
-              <h1 class="h3 mb-0 text-gray-800">Informasi </h1>
+              <h1 class="h3 mb-0 text-gray-800">Informasi</h1>
               <button
                 data-toggle="modal"
                 data-target="#tambah-organisasi"
@@ -392,14 +398,30 @@
                             type="text"
                             class="form-control"
                             id="visi-form"
+                            required
                           />
                         </div>
                         <div class="form-group">
-                          <label for="visi-form">Deskripsi</label>
+                          <label for="deskripsi-form">Deskripsi</label>
+                          <textarea
+                            name=""
+                            id="deskripsi-form"
+                            class="form-control"
+                            cols="30"
+                            rows="10"
+                          ></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="visi-form">Banner Foto</label>
+                          <p>
+                            Banner foto ini akan di pasangkan foto nya di paling
+                            atas besar sekali
+                          </p>
                           <input
-                            type="text"
+                            type="file"
                             class="form-control"
                             id="visi-form"
+                            required
                           />
                         </div>
                         <div class="form-group">
@@ -417,6 +439,15 @@
                             class="form-control"
                             id="visi-form"
                           />
+                        </div>
+                        <label for="">Tagging</label>
+                        <div class="form-group">
+                          <input type="checkbox" name="" id="" />
+                          <label for="">Prestasi</label>
+                        </div>
+                        <div class="form-group">
+                          <input type="checkbox" name="" id="" />
+                          <label for="">Kegiatan</label>
                         </div>
                       </div>
                       <div class="modal-footer">
@@ -444,7 +475,6 @@
                       <th>Nama Kegiatan</th>
                       <th>Foto Kegiatan</th>
                       <th>Deskripsi</th>
-                      
 
                       <th>Tagging</th>
 
@@ -454,7 +484,7 @@
                   <tbody>
                     <tr>
                       <td>17 Agustus</td>
-                      <td><img src="" alt="Foto Kegiatan"></td>
+                      <td><img src="" alt="Foto Kegiatan" /></td>
                       <td>blabla</td>
                       <td>Kegiatan, Prestasi</td>
                       <td colspan="2">
@@ -507,14 +537,30 @@
                               type="text"
                               class="form-control"
                               id="visi-form"
+                              required
                             />
                           </div>
                           <div class="form-group">
-                            <label for="visi-form">Deskripsi</label>
+                            <label for="deskripsi-form">Deskripsi</label>
+                            <textarea
+                              name=""
+                              id="deskripsi-form"
+                              class="form-control"
+                              cols="30"
+                              rows="10"
+                            ></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="visi-form">Banner Foto</label>
+                            <p>
+                              Banner foto ini akan di pasangkan foto nya di paling
+                              atas besar sekali
+                            </p>
                             <input
-                              type="text"
+                              type="file"
                               class="form-control"
                               id="visi-form"
+                              required
                             />
                           </div>
                           <div class="form-group">
@@ -532,6 +578,15 @@
                               class="form-control"
                               id="visi-form"
                             />
+                          </div>
+                          <label for="">Tagging</label>
+                          <div class="form-group">
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Prestasi</label>
+                          </div>
+                          <div class="form-group">
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Kegiatan</label>
                           </div>
                         </div>
                         <div class="modal-footer">
